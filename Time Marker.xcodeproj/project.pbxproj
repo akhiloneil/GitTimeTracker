@@ -14,6 +14,7 @@
 		1E8A7D511F09EB8700744AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A7D4F1F09EB8700744AB3 /* LaunchScreen.storyboard */; };
 		1E8A7D5C1F09EB8700744AB3 /* Time_MarkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A7D5B1F09EB8700744AB3 /* Time_MarkerTests.swift */; };
 		1E8A7D671F09EB8700744AB3 /* Time_MarkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A7D661F09EB8700744AB3 /* Time_MarkerUITests.swift */; };
+		1E8A7D751F0B033800744AB3 /* alarm_beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A7D741F0B033800744AB3 /* alarm_beep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1E8A7D621F09EB8700744AB3 /* Time MarkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time MarkerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8A7D661F09EB8700744AB3 /* Time_MarkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_MarkerUITests.swift; sourceTree = "<group>"; };
 		1E8A7D681F09EB8700744AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8A7D741F0B033800744AB3 /* alarm_beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm_beep.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1E8A7D461F09EB8600744AB3 /* AppDelegate.swift */,
 				1E8A7D481F09EB8600744AB3 /* ViewController.swift */,
 				1E8A7D4A1F09EB8700744AB3 /* Main.storyboard */,
+				1E8A7D741F0B033800744AB3 /* alarm_beep.wav */,
 				1E8A7D4D1F09EB8700744AB3 /* Assets.xcassets */,
 				1E8A7D4F1F09EB8700744AB3 /* LaunchScreen.storyboard */,
 				1E8A7D521F09EB8700744AB3 /* Info.plist */,
@@ -237,6 +240,7 @@
 			files = (
 				1E8A7D511F09EB8700744AB3 /* LaunchScreen.storyboard in Resources */,
 				1E8A7D4E1F09EB8700744AB3 /* Assets.xcassets in Resources */,
+				1E8A7D751F0B033800744AB3 /* alarm_beep.wav in Resources */,
 				1E8A7D4C1F09EB8700744AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

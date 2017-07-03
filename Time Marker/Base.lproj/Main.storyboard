@@ -20,7 +20,17 @@
                     <view key="view" contentMode="scaleToFill" id="25X-uB-JBV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKi-UZ-OBs">
+                                <rect key="frame" x="147" y="318.5" width="81" height="30"/>
+                                <state key="normal" title="Alert Sound"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SKi-UZ-OBs" firstAttribute="centerX" secondItem="25X-uB-JBV" secondAttribute="centerX" id="bKY-CG-WDK"/>
+                            <constraint firstItem="SKi-UZ-OBs" firstAttribute="centerY" secondItem="25X-uB-JBV" secondAttribute="centerY" id="sQ7-LP-4uK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W7a-ku-Hzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
